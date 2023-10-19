@@ -9,6 +9,7 @@ number on a different server.
 ## Create environment and install libraries
 ```sh
 conda create -n test_frameworks python=3.12
+conda activate test_frameworks
 pip install -r requirements.txt
 ```
 
