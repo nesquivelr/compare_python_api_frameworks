@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package locus_package;
+
+service LocusMessager {
+	rpc SendLocus (Locus) returns (FilterExecution) {}
+}
+
+message Locus {
+	string id = 1;
+}
+
+message	FilterExecution{
+	bool status = 1;
+}

@@ -1,0 +1,8 @@
+grpcio
+grpcio-tools
+ipython
+flask
+waitress
+requests
+fastapi
+uvicorn
